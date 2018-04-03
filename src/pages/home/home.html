@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-navbar color="mycolor" style="box-shadow: 0px 3px 15px 0px rgb(107, 107, 107);">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+      Travel
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="image">
+    <img src="../assets/image/pexels-photo-210065.jpg">
+    <h2 style="top: 20%;">Travel around Cambodia</h2>
+    <br>
+    <h2 style="top: 30%;">Take your time to advanture with this life</h2>
+    <br>
+    <h2 style="top: 40%;">You will see the beautiful world</h2>
+  </div>
+ 
+  <h6 padding>Place & Gallery</h6>
+
+  <hr class="line">
+
+  <div padding>
+    <h6 class="titles">Siem Reap Province</h6>
+    <ion-card color="mycolor" style="box-shadow: 2px 3px 15px 0px rgb(107, 107, 107);">
+      <h6 class="titlecenter">Angkor Wat Temple</h6>
+      <img src="../assets/image/angkorwat.jpg">
+      <ion-row>
+        <h6 style="padding: 28px 0px 10px 20px; font-size: 10px;">Angkor Wat lies 5.5 kilometres...</h6>
+        <ion-col text-right>
+          <button ion-button text-right clear color="light" (click)="showAngkor()">View</button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+  
+
+  <div padding>
+    <ion-card color="mycolor" style="box-shadow: 2px 3px 15px 0px rgb(107, 107, 107);">
+      <h6 class="titlecenter">Ta Prohm Temple</h6>
+      <img src="../assets/image/Taprom.jpg">
+      <ion-row>
+        <h6 style="padding: 28px 0px 10px 20px; font-size: 10px;" >Ta Prohm is the modern name...</h6>
+        <ion-col text-right>
+          <button ion-button text-right clear color="light" (click)="showangkorsoltistic()">View</button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+  
+  <hr class="line">
+
+  <div padding-left padding-right>
+    <h6 class="titles">Mondulkiri Province</h6>
+    <ion-card color="mycolor" style="box-shadow: 2px 3px 15px 0px rgb(107, 107, 107);">
+      <h6 class="titlecenter">I love mondulkiri</h6>
+      <img src="../assets/image/mondulkiri/love.jpg">
+      <ion-row>
+        <h6 style="padding: 25px 0px 10px 20px; font-size: 10px;">Mondulkiri is an eastern...</h6>
+        <ion-col text-right>
+          <button ion-button text-right clear color="light" (click)="showLove()">View</button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+
+  <div padding>
+    <ion-card color="mycolor" style="box-shadow: 2px 3px 15px 0px rgb(107, 107, 107);">
+      <h6 class="titlecenter">Terk Chros Bosra</h6>
+      <img src="../assets/image/mondulkiri/busra.jpg">
+      <ion-row>
+        <h6 style="padding: 28px 0px 10px 20px; font-size: 10px;">Locates at Pich Chinda District...</h6>
+        <ion-col text-right>
+          <button ion-button clear color="light" (click)="showBusra()">View</button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </div>
+
+  <!-- <div padding>
+    <button ion-button secondary menuToggle>Toggle Menu</button>
+  </div> -->
+  
+</ion-content>
