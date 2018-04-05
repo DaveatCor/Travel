@@ -12,3 +12,16 @@ Taprom {
         text-align:center;
     }
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.whenhover {
+    transition: 0.5s;
+}
+
+.whenhover:hover {
+    box-shadow: 2px 3px 15px 0px rgb(107, 107, 107);
+    transition: 0.5s;
+}
