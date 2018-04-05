@@ -1,6 +1,6 @@
 {
-  "name": "App",
-  "app_id": "026128d4",
+  "name": "trave",
+  "app_id": "",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
